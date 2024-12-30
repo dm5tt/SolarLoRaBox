@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TG2016SMN_52.0000M-MCGNNMB")(type "KiCad")(uri "${KIPRJMOD}/components/TG2016SMN_52.0000M-MCGNNMB")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/components/footprints")(options "")(descr ""))
+  (lib (name "OwnLib")(type "KiCad")(uri "${KIPRJMOD}/components/footprints/OwnLib.pretty")(options "")(descr ""))
+)
