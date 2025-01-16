@@ -39,7 +39,7 @@ For "comfort programming" it has a TC2030 where you can connect a Segger or ST-L
 
 # Hardware verification (v0.0.1)
 
-### Testing of the SWD interface: ✅
+### SWD interface: ✅
 
 ```
  - Connecting via USB to probe/ programmer device 0
