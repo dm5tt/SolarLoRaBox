@@ -37,7 +37,7 @@ The STM32U0 spits out its bootloader on the I2C, UART and USB.
 
 For "comfort programming" it has a TC2030 where you can connect a Segger or ST-Link
 
-# Hardware verification
+# Hardware verification (v0.0.1)
 
 ### Testing of the SWD interface: ✅
 
