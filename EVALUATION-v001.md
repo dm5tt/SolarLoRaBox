@@ -55,6 +55,9 @@ Found DFU: [0483:df11] ver=0220, devnum=13, cfg=1, intf=0, path="3-3.3", alt=0, 
 
 Replace with a JST connector. That USB-C connector is useless in a box.
 
+### LED: ✅
+
+Blinks.
 
 ### UART: ✅
 
