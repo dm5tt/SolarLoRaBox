@@ -122,9 +122,11 @@ Which is the same specified in the datasheet.
 
 	}
 
-Results in
 
 ```
+
+Results in
+
 ```
 LoRa Product ID: SX1261 V2D 2D02
 ```
