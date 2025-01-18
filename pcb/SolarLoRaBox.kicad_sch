@@ -8057,7 +8057,7 @@
 		)
 		(uuid "8925a26d-3fc8-445c-bc3f-3724fb88236d")
 	)
-	(label "FLASH_MOSI"
+	(label "FLASH_MISO"
 		(at 360.68 123.19 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8244,7 +8244,7 @@
 		)
 		(uuid "a8a37f93-37f3-4363-bb69-0a705a4403ec")
 	)
-	(label "FLASH_MISO"
+	(label "FLASH_MOSI"
 		(at 360.68 120.65 180)
 		(fields_autoplaced yes)
 		(effects
