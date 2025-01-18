@@ -75,4 +75,6 @@ Todo
 
 ### Reset IC: ⚠️
 
-Need a capacitor in front of of the sensing line. Otherwise it tends to bounce around if the LoRa module takes too much current.
+Needs a buffer capacitor in front of  the sensing line. 
+
+[This caused problems with the SolarMeshtasticBox.](https://github.com/dm5tt/SolarMeshtasticNode/issues/3)
