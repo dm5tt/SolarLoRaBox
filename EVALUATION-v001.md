@@ -67,15 +67,11 @@ Mixed up Silk print. RX/TX text must be swapped.
 
 ### SPI, Flash: 
 
-Todo
-
-### SPI, LoRa: ⚠️
-
 MOSI -> DI
 
 MISO -> DO
 
-Whoever did this.. looking at you Winbond!
+Whoever did this..  that's not the usual convention how you name things on a SPI bus.
 
 If switched it works.
 
@@ -105,6 +101,10 @@ response[1]	uint8_t	0x17 (Hex)
 ```
 
 Which is the same specified in the datasheet.
+
+### SPI, LoRa: ⚠️
+
+
 
 
 ### Reset IC: ⚠️
