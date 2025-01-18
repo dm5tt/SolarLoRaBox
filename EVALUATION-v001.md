@@ -125,9 +125,8 @@ Which is the same specified in the datasheet.
 Results in
 
 ```
-LoRa Product ID: SX1261 V2D 2D02
 ```
-
+LoRa Product ID: SX1261 V2D 2D02
 ```
 
 ### Reset IC: ⚠️
