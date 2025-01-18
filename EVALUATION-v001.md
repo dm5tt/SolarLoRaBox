@@ -65,7 +65,7 @@ Blinks.
 
 Mixed up Silk print. RX/TX text must be swapped.
 
-### SPI, Flash: 
+### SPI, Flash: 🚨
 
 MOSI -> DI
 
@@ -83,13 +83,9 @@ uint8_t request[4] = { 0x90, 0x00, 0x00, 0x00 };
 
 uint8_t response[2] = { 0 };
 
-
 HAL_GPIO_WritePin(GPIOA, FLASH_CS_Pin, GPIO_PIN_RESET);
-osDelay(10);
-
 HAL_SPI_Transmit(&hspi2, request, sizeof(request), HAL_MAX_DELAY);
 HAL_SPI_Receive(&hspi2, response, sizeof(response), HAL_MAX_DELAY);
-
 HAL_GPIO_WritePin(GPIOA, FLASH_CS_Pin, GPIO_PIN_SET);
 ```
 
@@ -102,10 +98,37 @@ response[1]	uint8_t	0x17 (Hex)
 
 Which is the same specified in the datasheet.
 
-### SPI, LoRa: ⚠️
+### SPI, LoRa: ✅
 
+```
+	/* 0x1d = Read one or several registers
+	 * 0x0320 = Product ID String
+	 */
+	uint8_t request[4] = { 0x1D, 0x03, 0x20 };
+	uint8_t response[16] = { 0 };
 
+	/* Infinite loop */
+	for (;;) {
+		osDelay(1000);
 
+		HAL_GPIO_WritePin(GPIOA, RADIO_CS_Pin, GPIO_PIN_RESET);
+
+		HAL_SPI_Transmit(&hspi1, request, sizeof(request), HAL_MAX_DELAY);
+		HAL_SPI_Receive(&hspi1, response, sizeof(response), HAL_MAX_DELAY);
+
+		HAL_GPIO_WritePin(GPIOA, RADIO_CS_Pin, GPIO_PIN_SET);
+
+		printf("LoRa Product ID: %s\r\n", response);
+
+	}
+
+Results in
+
+```
+LoRa Product ID: SX1261 V2D 2D02
+```
+
+```
 
 ### Reset IC: ⚠️
 

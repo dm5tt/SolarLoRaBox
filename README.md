@@ -39,4 +39,4 @@ For "comfort programming" it has a TC2030 where you can connect a Segger or ST-L
 
 # Evaluation
 
-[Verification of PCB v0.0.1](./EVALUATION-v001.md)
+[Verification of PCB v0.0.1](EVALUATION-v001.md)
