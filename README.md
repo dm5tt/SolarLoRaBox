@@ -1,4 +1,4 @@
-![SolarLoraBox PCB](doc/pcb_v002jpg.jpg)
+![SolarLoraBox PCB](doc/pcb_v002.jpg)
 
 # What is this thing?
 
@@ -10,6 +10,8 @@ This is an experimental platform for an solar driven LoRa sensor station based o
 - Flash: Windbond W25Q128JVS (128 MBit)
 - Reset IC: APX803L05-32SA-7 (3.2V)
 - LDO: HEERMICR HE9073A30MR (3.0V)
+
+Plan is to´ use it as platform for a wireless sensor based on Zephyr.
 
 # Features
 
@@ -30,6 +32,8 @@ Lots if this stuff was already proven and validated in the project [SolarMeshtas
 - 1x UART
 
 - 1x USB
+
+- 1x GPIO with 4 available pins
 
 # Programming interfaces
 

@@ -415,6 +415,294 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_01x05_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x05_Socket"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x05, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x05_Socket_1_1"
+				(arc
+					(start 0 -4.572)
+					(mid -0.5058 -5.08)
+					(end 0 -5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.048)
+					(mid -0.5058 2.54)
+					(end 0 2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.588)
+					(mid -0.5058 5.08)
+					(end 0 4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_ARM_SWD_TagConnect_TC2030"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -1303,6 +1591,88 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -4625,10 +4995,6 @@
 		(uuid "fb7c7ce1-4f60-4bd8-817c-e3ad02f12739")
 	)
 	(no_connect
-		(at 461.01 261.62)
-		(uuid "0c2caad5-c981-4012-a9d8-0d69d2d8fda6")
-	)
-	(no_connect
 		(at 375.92 50.8)
 		(uuid "0e178552-0622-46fc-a29d-14ef2a385629")
 	)
@@ -4649,16 +5015,8 @@
 		(uuid "3b493651-ab2c-4c65-903a-876d41b413c2")
 	)
 	(no_connect
-		(at 461.01 259.08)
-		(uuid "415f00b1-1a08-4834-a412-02aeaff02bfd")
-	)
-	(no_connect
 		(at 461.01 238.76)
 		(uuid "4bbfa733-dddd-4ceb-aa5f-0cfa7c2f010d")
-	)
-	(no_connect
-		(at 461.01 256.54)
-		(uuid "58b1552e-5aee-4a9f-9944-15f8b8514e89")
 	)
 	(no_connect
 		(at 375.92 39.37)
@@ -4675,10 +5033,6 @@
 	(no_connect
 		(at 461.01 271.78)
 		(uuid "cd5ed3d2-92a4-4399-8f47-cda3d0098f86")
-	)
-	(no_connect
-		(at 461.01 254)
-		(uuid "ebde65bb-bd5c-49cb-8a4f-d2eeb3e5145a")
 	)
 	(no_connect
 		(at 379.73 287.02)
@@ -5054,6 +5408,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 146.05) (xy 180.34 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "271ee349-5e2e-4387-9aa5-1d77753bdb00")
+	)
+	(wire
+		(pts
 			(xy 160.02 87.63) (xy 160.02 92.71)
 		)
 		(stroke
@@ -5261,6 +5625,16 @@
 			(type default)
 		)
 		(uuid "43a21a21-6751-462e-98be-49e78f4bdd59")
+	)
+	(wire
+		(pts
+			(xy 182.88 146.05) (xy 182.88 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45236c15-582a-49f2-a463-0755188746e2")
 	)
 	(wire
 		(pts
@@ -5504,6 +5878,16 @@
 	)
 	(wire
 		(pts
+			(xy 461.01 256.54) (xy 468.63 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60b77859-d894-4bdf-8cc7-ee89ff8a91d2")
+	)
+	(wire
+		(pts
 			(xy 30.48 115.57) (xy 26.67 115.57)
 		)
 		(stroke
@@ -5744,6 +6128,16 @@
 	)
 	(wire
 		(pts
+			(xy 461.01 259.08) (xy 468.63 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e41d07-8e60-4be0-88a6-616409928364")
+	)
+	(wire
+		(pts
 			(xy 312.42 27.94) (xy 312.42 30.48)
 		)
 		(stroke
@@ -5841,6 +6235,16 @@
 			(type default)
 		)
 		(uuid "82aeef7d-573b-480c-9d2c-560c286e09a8")
+	)
+	(wire
+		(pts
+			(xy 461.01 254) (xy 468.63 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82b1e4fa-d43e-4d1e-9f40-bd3b1836b1d9")
 	)
 	(wire
 		(pts
@@ -6224,6 +6628,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 146.05) (xy 177.8 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9da2362c-b84b-44ce-8fe5-5f3d5b08fb36")
+	)
+	(wire
+		(pts
 			(xy 152.4 162.56) (xy 152.4 166.37)
 		)
 		(stroke
@@ -6574,6 +6988,16 @@
 	)
 	(wire
 		(pts
+			(xy 461.01 261.62) (xy 468.63 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca328388-ce5a-4cca-9139-2479b2e122d6")
+	)
+	(wire
+		(pts
 			(xy 157.48 223.52) (xy 162.56 223.52)
 		)
 		(stroke
@@ -6904,6 +7328,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 146.05) (xy 185.42 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb10f254-705c-4113-a6ca-894ea4924738")
+	)
+	(wire
+		(pts
 			(xy 401.32 31.75) (xy 410.21 31.75)
 		)
 		(stroke
@@ -6961,6 +7395,16 @@
 			(type default)
 		)
 		(uuid "f22cbbea-aae4-4279-aeab-565305bee611")
+	)
+	(wire
+		(pts
+			(xy 175.26 146.05) (xy 175.26 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2962cb7-3de9-40f9-b220-3446256c7662")
 	)
 	(wire
 		(pts
@@ -7221,6 +7665,18 @@
 		(uuid 6d8ab783-d0de-4479-a2bb-373cc0ddbdd5)
 	)
 	(rectangle
+		(start 167.64 129.54)
+		(end 198.12 191.77)
+		(stroke
+			(width 0.508)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6dd65f96-47b5-491a-ab18-79346032d44c)
+	)
+	(rectangle
 		(start 345.44 15.24)
 		(end 430.53 88.9)
 		(stroke
@@ -7416,6 +7872,16 @@
 		)
 		(uuid "60fb9798-0a7b-47fe-bd8c-39ac410c30a3")
 	)
+	(text "GPIO"
+		(exclude_from_sim no)
+		(at 171.196 132.842 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "70f8b951-56b6-48a3-aaea-46415c101968")
+	)
 	(text "Brown-Out-Detection"
 		(exclude_from_sim no)
 		(at 296.418 67.818 0)
@@ -7498,7 +7964,6 @@
 	)
 	(label "FLASH_RESET"
 		(at 468.63 274.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7509,7 +7974,6 @@
 	)
 	(label "LED_STATUS"
 		(at 372.11 264.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7518,9 +7982,18 @@
 		)
 		(uuid "07468a4b-4537-42e9-9961-137fa57044e8")
 	)
+	(label "GPIO3"
+		(at 468.63 259.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0992e656-d507-45cd-8e27-435b86336c92")
+	)
 	(label "+3V3"
 		(at 118.11 153.67 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7531,7 +8004,6 @@
 	)
 	(label "GND"
 		(at 135.89 153.67 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7540,9 +8012,18 @@
 		)
 		(uuid "10b1430e-d809-49a6-b96e-1a882a88839b")
 	)
+	(label "GPIO2"
+		(at 182.88 152.4 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1592bb98-d1f1-49a9-9c64-46ad3772c88b")
+	)
 	(label "RADIO_BUSY"
 		(at 410.21 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7553,7 +8034,6 @@
 	)
 	(label "VLIPO"
 		(at 92.71 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7564,7 +8044,6 @@
 	)
 	(label "+3V3"
 		(at 369.57 31.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7575,7 +8054,6 @@
 	)
 	(label "I2C1_SCL"
 		(at 120.65 182.88 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7586,7 +8064,6 @@
 	)
 	(label "GND"
 		(at 69.85 170.18 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7597,7 +8074,6 @@
 	)
 	(label "+3V3"
 		(at 388.62 59.69 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7608,7 +8084,6 @@
 	)
 	(label "RADIO_MOSI"
 		(at 374.65 256.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7619,7 +8094,6 @@
 	)
 	(label "RADIO_RST"
 		(at 369.57 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7630,7 +8104,6 @@
 	)
 	(label "RADIO_RST"
 		(at 468.63 246.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7641,7 +8114,6 @@
 	)
 	(label "ADC_VBUS"
 		(at 374.65 246.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7652,7 +8124,6 @@
 	)
 	(label "RADIO_SCK"
 		(at 410.21 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7663,7 +8134,6 @@
 	)
 	(label "USB_DP"
 		(at 375.92 269.24 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7674,7 +8144,6 @@
 	)
 	(label "VLOAD"
 		(at 40.64 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7685,7 +8154,6 @@
 	)
 	(label "+3V3"
 		(at 172.72 265.43 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7696,7 +8164,6 @@
 	)
 	(label "GND"
 		(at 115.57 182.88 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7707,7 +8174,6 @@
 	)
 	(label "RADIO_BUSY"
 		(at 468.63 243.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7718,7 +8184,6 @@
 	)
 	(label "VLIPO"
 		(at 16.51 168.91 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7729,7 +8194,6 @@
 	)
 	(label "VLIPO"
 		(at 30.48 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7740,7 +8204,6 @@
 	)
 	(label "RADIO_MOSI"
 		(at 410.21 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7751,7 +8214,6 @@
 	)
 	(label "I2C1_SCL"
 		(at 140.97 153.67 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7762,7 +8224,6 @@
 	)
 	(label "VLOAD"
 		(at 275.59 27.94 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7773,7 +8234,6 @@
 	)
 	(label "VBUS"
 		(at 118.11 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7784,7 +8244,6 @@
 	)
 	(label "U_TX"
 		(at 374.65 238.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7795,7 +8254,6 @@
 	)
 	(label "VLOAD"
 		(at 294.64 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7806,7 +8264,6 @@
 	)
 	(label "GND"
 		(at 115.57 153.67 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7817,7 +8274,6 @@
 	)
 	(label "I2C1_SDA"
 		(at 468.63 266.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7828,7 +8284,6 @@
 	)
 	(label "FLASH_WP"
 		(at 360.68 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7839,7 +8294,6 @@
 	)
 	(label "FLASH_MISO"
 		(at 468.63 279.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7850,7 +8304,6 @@
 	)
 	(label "+3V3"
 		(at 137.16 29.21 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7861,7 +8314,6 @@
 	)
 	(label "VBUS"
 		(at 154.94 111.76 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7872,7 +8324,6 @@
 	)
 	(label "RESET"
 		(at 345.44 289.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7883,7 +8334,6 @@
 	)
 	(label "+3V3"
 		(at 138.43 181.61 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7894,7 +8344,6 @@
 	)
 	(label "FLASH_RESET"
 		(at 360.68 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7905,7 +8354,6 @@
 	)
 	(label "GND"
 		(at 115.57 95.25 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7916,7 +8364,6 @@
 	)
 	(label "I2C1_SCL"
 		(at 120.65 153.67 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7927,7 +8374,6 @@
 	)
 	(label "+3V3"
 		(at 118.11 182.88 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7936,9 +8382,18 @@
 		)
 		(uuid "73855751-b59e-480d-b96e-6f2ade9dc4bd")
 	)
+	(label "GPIO2"
+		(at 468.63 256.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74744b5c-9ea1-420c-a984-99789c2f4295")
+	)
 	(label "+3V3"
 		(at 394.97 118.11 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7949,7 +8404,6 @@
 	)
 	(label "ADC_LIPO"
 		(at 374.65 243.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7960,7 +8414,6 @@
 	)
 	(label "+3V3"
 		(at 138.43 153.67 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7971,7 +8424,6 @@
 	)
 	(label "RADIO_CS"
 		(at 410.21 27.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7982,7 +8434,6 @@
 	)
 	(label "BOOT0"
 		(at 375.92 292.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7993,7 +8444,6 @@
 	)
 	(label "+3V3"
 		(at 113.03 265.43 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8004,7 +8454,6 @@
 	)
 	(label "RESET"
 		(at 321.31 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8015,7 +8464,6 @@
 	)
 	(label "DEBUG_SWO"
 		(at 162.56 226.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8026,7 +8474,6 @@
 	)
 	(label "ADC_LIPO"
 		(at 290.83 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8037,7 +8484,6 @@
 	)
 	(label "+3V3"
 		(at 134.62 265.43 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8048,7 +8494,6 @@
 	)
 	(label "I2C1_SDA"
 		(at 160.02 151.13 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8059,7 +8504,6 @@
 	)
 	(label "FLASH_MISO"
 		(at 360.68 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8070,7 +8514,6 @@
 	)
 	(label "+3V3"
 		(at 246.38 273.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8081,7 +8524,6 @@
 	)
 	(label "+3V3"
 		(at 377.19 105.41 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8092,7 +8534,6 @@
 	)
 	(label "+3V3"
 		(at 83.82 123.19 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8103,7 +8544,6 @@
 	)
 	(label "RADIO_MISO"
 		(at 374.65 254 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8114,7 +8554,6 @@
 	)
 	(label "DEBUG_SWCLK"
 		(at 375.92 274.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8125,7 +8564,6 @@
 	)
 	(label "I2C1_SCL"
 		(at 152.4 151.13 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8136,7 +8574,6 @@
 	)
 	(label "+3V3"
 		(at 152.4 166.37 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8147,7 +8584,6 @@
 	)
 	(label "DEBUG_SWCLK"
 		(at 162.56 220.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8158,7 +8594,6 @@
 	)
 	(label "RADIO_MISO"
 		(at 410.21 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8169,7 +8604,6 @@
 	)
 	(label "I2C1_SDA"
 		(at 143.51 181.61 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8180,7 +8614,6 @@
 	)
 	(label "+3V3"
 		(at 160.02 166.37 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8191,7 +8624,6 @@
 	)
 	(label "U_RX"
 		(at 120.65 95.25 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8200,9 +8632,18 @@
 		)
 		(uuid "a1a7efe6-d44d-4e62-baf9-accb3e3395e1")
 	)
+	(label "GPIO1"
+		(at 468.63 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5c48390-0ade-41ef-a2ea-7de00c1fc80c")
+	)
 	(label "U_TX"
 		(at 123.19 95.25 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8213,7 +8654,6 @@
 	)
 	(label "FLASH_MOSI"
 		(at 468.63 281.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8224,7 +8664,6 @@
 	)
 	(label "ADC_VBUS"
 		(at 325.12 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8235,7 +8674,6 @@
 	)
 	(label "DEBUG_SWO"
 		(at 468.63 251.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8246,7 +8684,6 @@
 	)
 	(label "FLASH_MOSI"
 		(at 360.68 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8257,7 +8694,6 @@
 	)
 	(label "RADIO_DIO1"
 		(at 369.57 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8268,7 +8704,6 @@
 	)
 	(label "DEBUG_SWDIO"
 		(at 375.92 271.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8279,7 +8714,6 @@
 	)
 	(label "DEBUG_SWDIO"
 		(at 162.56 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8290,7 +8724,6 @@
 	)
 	(label "I2C1_SCL"
 		(at 140.97 181.61 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8301,7 +8734,6 @@
 	)
 	(label "FLASH_CS"
 		(at 360.68 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8312,7 +8744,6 @@
 	)
 	(label "VBUS"
 		(at 312.42 27.94 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8323,7 +8754,6 @@
 	)
 	(label "U_RX"
 		(at 374.65 241.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8334,7 +8764,6 @@
 	)
 	(label "I2C1_SDA"
 		(at 123.19 153.67 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8345,7 +8774,6 @@
 	)
 	(label "+3V3"
 		(at 353.06 275.59 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8354,9 +8782,18 @@
 		)
 		(uuid "b870ec7b-da39-4d61-b0dc-153ffd4eb3de")
 	)
+	(label "GPIO3"
+		(at 180.34 152.4 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b9c8fb02-f4c6-4f2b-8661-17f7e2c34313")
+	)
 	(label "VBUS"
 		(at 31.75 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8367,7 +8804,6 @@
 	)
 	(label "VBUS"
 		(at 19.05 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8378,7 +8814,6 @@
 	)
 	(label "GND"
 		(at 135.89 181.61 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8389,7 +8824,6 @@
 	)
 	(label "FLASH_SCK"
 		(at 468.63 276.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8400,7 +8834,6 @@
 	)
 	(label "I2C1_SCL"
 		(at 468.63 264.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8411,7 +8844,6 @@
 	)
 	(label "RESET"
 		(at 199.39 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8422,7 +8854,6 @@
 	)
 	(label "USB_DP"
 		(at 160.02 92.71 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8433,7 +8864,6 @@
 	)
 	(label "USB_DN"
 		(at 375.92 266.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8444,7 +8874,6 @@
 	)
 	(label "FLASH_CS"
 		(at 375.92 261.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8455,7 +8884,6 @@
 	)
 	(label "RADIO_SCK"
 		(at 374.65 251.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8466,7 +8894,6 @@
 	)
 	(label "LED_STATUS"
 		(at 262.89 76.2 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8475,9 +8902,18 @@
 		)
 		(uuid "ced56b89-bfc5-4ce9-a1bc-218e15fe2dc4")
 	)
+	(label "GPIO4"
+		(at 177.8 152.4 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cf453dc0-616f-45e8-94bf-45a7547fd502")
+	)
 	(label "VLOAD"
 		(at 92.71 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8488,7 +8924,6 @@
 	)
 	(label "BOOT0"
 		(at 132.08 29.21 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8497,9 +8932,18 @@
 		)
 		(uuid "d9a04345-5e00-4ed1-bae3-34acd3875849")
 	)
+	(label "GND"
+		(at 175.26 152.4 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dc284fa5-bedb-411d-928d-3bcea5d3f0dd")
+	)
 	(label "+3V3"
 		(at 147.32 207.01 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8510,7 +8954,6 @@
 	)
 	(label "I2C1_SDA"
 		(at 123.19 182.88 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8521,7 +8964,6 @@
 	)
 	(label "+3V3"
 		(at 81.28 170.18 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8532,7 +8974,6 @@
 	)
 	(label "VBUS"
 		(at 46.99 170.18 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8543,7 +8984,6 @@
 	)
 	(label "VLIPO"
 		(at 58.42 170.18 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8554,7 +8994,6 @@
 	)
 	(label "USB_DN"
 		(at 157.48 92.71 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8563,9 +9002,18 @@
 		)
 		(uuid "e5078ae7-23a3-46c6-aba1-2493d8aa1637")
 	)
+	(label "GPIO4"
+		(at 468.63 261.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eaf7023a-8119-4416-b67b-a3a149ca4835")
+	)
 	(label "RADIO_CS"
 		(at 374.65 248.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8576,7 +9024,6 @@
 	)
 	(label "RESET"
 		(at 162.56 215.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8587,7 +9034,6 @@
 	)
 	(label "FLASH_WP"
 		(at 375.92 259.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8598,7 +9044,6 @@
 	)
 	(label "I2C1_SDA"
 		(at 143.51 153.67 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8607,9 +9052,18 @@
 		)
 		(uuid "f4b40600-0552-4490-bea5-ca4777c189af")
 	)
+	(label "GPIO1"
+		(at 185.42 152.4 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f76099ef-7f6a-4d58-980b-efbf43f11544")
+	)
 	(label "FLASH_SCK"
 		(at 360.68 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8620,7 +9074,6 @@
 	)
 	(label "RADIO_DIO1"
 		(at 468.63 248.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10476,6 +10929,83 @@
 			(project ""
 				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Socket")
+		(at 180.34 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fbae02b-8678-4f9e-a74a-f46d0109ab35")
+		(property "Reference" "J10"
+			(at 180.34 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05_Socket"
+			(at 180.34 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical"
+			(at 180.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 180.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "429bdf02-2c0a-414c-8093-e1c730f5366e")
+		)
+		(pin "5"
+			(uuid "06c2a19f-4d0a-40d9-b6df-6acb180e85e8")
+		)
+		(pin "3"
+			(uuid "a18f1914-e851-437f-82bd-32014b9f0a16")
+		)
+		(pin "4"
+			(uuid "e181f130-8b6f-4dd6-9fd3-206aebeb19ec")
+		)
+		(pin "2"
+			(uuid "1c9360a7-adb0-4a37-8a65-d7457dd37123")
+		)
+		(instances
+			(project ""
+				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -17094,6 +17624,70 @@
 			(project "SRCS"
 				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 196.85 241.3 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed3fea63-2570-41f1-9e8b-a7295a82ec33")
+		(property "Reference" "H1"
+			(at 199.39 240.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 199.39 242.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
+			(at 196.85 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 196.85 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
+					(reference "H1")
 					(unit 1)
 				)
 			)

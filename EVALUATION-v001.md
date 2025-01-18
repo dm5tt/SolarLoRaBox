@@ -131,6 +131,13 @@ Results in
 LoRa Product ID: SX1261 V2D 2D02
 ```
 
+# ADC: ✅
+
+```
+Channel 6 Input Voltage: 4.699 V
+Channel 7 Input Voltage: 1.368 V
+```
+
 ### Reset IC: ⚠️
 
 Needs a buffer capacitor in front of  the sensing line. 

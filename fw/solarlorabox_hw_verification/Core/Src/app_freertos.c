@@ -25,6 +25,7 @@
 #include "task_usart.h"
 #include "task_flash.h"
 #include "task_lora.h"
+#include "task_adc.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -76,6 +77,13 @@ const osThreadAttr_t task_lora_attributes = {
   .priority = (osPriority_t) osPriorityNormal,
   .stack_size = 128 * 4
 };
+
+osThreadId_t task_adc_handle;
+const osThreadAttr_t task_adc_attributes = {
+  .name = "task_adc",
+  .priority = (osPriority_t) osPriorityNormal,
+  .stack_size = 128 * 10
+};
 /* USER CODE END FunctionPrototypes */
 
 /**
@@ -110,6 +118,7 @@ void MX_FREERTOS_Init(void) {
   task_usart_handle = osThreadNew(task_usart, NULL, &task_usart_attributes);
   task_flash_handle = osThreadNew(task_flash, NULL, &task_flash_attributes);
   task_lora_handle = osThreadNew(task_lora, NULL, &task_lora_attributes);
+  task_adc_handle = osThreadNew(task_adc, NULL, &task_adc_attributes);
   /* USER CODE END RTOS_THREADS */
 
   /* USER CODE BEGIN RTOS_EVENTS */
