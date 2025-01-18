@@ -69,9 +69,44 @@ Mixed up Silk print. RX/TX text must be swapped.
 
 Todo
 
-### SPI, LoRa: 
+### SPI, LoRa: ⚠️
 
-Todo
+MOSI -> DI
+
+MISO -> DO
+
+Whoever did this.. looking at you Winbond!
+
+If switched it works.
+
+```
+	/* 0x90 = Read Device ID
+	 * 0x00 0x00 0x00 0x00 = Dummy Address
+	 */
+	uint8_t request[4] = { 0x90, 0x00, 0x00, 0x00 };
+
+	uint8_t response[2] = { 0 };
+
+
+	HAL_GPIO_WritePin(GPIOA, FLASH_CS_Pin, GPIO_PIN_RESET);
+	osDelay(10);
+
+	HAL_SPI_Transmit(&hspi2, request, sizeof(request), HAL_MAX_DELAY);
+	HAL_SPI_Receive(&hspi2, response, sizeof(response), HAL_MAX_DELAY);
+
+	HAL_GPIO_WritePin(GPIOA, FLASH_CS_Pin, GPIO_PIN_SET);
+```
+
+Results in
+
+```
+response	uint8_t [2]	0x200018d0 <ucHeap+1916>	
+	response[0]	uint8_t	0xef (Hex)	
+	response[1]	uint8_t	0x17 (Hex)	
+```
+
+Which is the same specified in the datasheet.
+
 
 ### Reset IC: ⚠️
 
