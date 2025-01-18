@@ -51,15 +51,17 @@ Found DFU: [0483:df11] ver=0220, devnum=13, cfg=1, intf=0, path="3-3.3", alt=1, 
 Found DFU: [0483:df11] ver=0220, devnum=13, cfg=1, intf=0, path="3-3.3", alt=0, name="@Internal Flash    /0x08000000/128*02Kg", serial="x"
 ```
 
-### USB
+### USB: ⚠️
 
-Replace with a JST connector. That USB-C connector is useless in a box.
+That USB-C connector is useless in a box.
+
+Replace with a JST connector as 12MBit/s USB isn't critical in terms of impedance matching. 
 
 ### LED: ✅
 
 Blinks.
 
-### UART: ✅
+### UART: ⚠️
 
 Mixed up Silk print. RX/TX text must be swapped.
 
@@ -71,7 +73,6 @@ Todo
 
 Todo
 
-
-### Reset IC
+### Reset IC: ⚠️
 
 Need a capacitor in front of of the sensing line. Otherwise it tends to bounce around if the LoRa module takes too much current.
