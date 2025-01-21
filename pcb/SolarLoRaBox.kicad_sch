@@ -7982,7 +7982,7 @@
 		)
 		(uuid "07468a4b-4537-42e9-9961-137fa57044e8")
 	)
-	(label "GPIO3"
+	(label "GPIOB"
 		(at 468.63 259.08 0)
 		(effects
 			(font
@@ -8012,7 +8012,7 @@
 		)
 		(uuid "10b1430e-d809-49a6-b96e-1a882a88839b")
 	)
-	(label "GPIO2"
+	(label "GPIOC"
 		(at 182.88 152.4 270)
 		(effects
 			(font
@@ -8382,7 +8382,7 @@
 		)
 		(uuid "73855751-b59e-480d-b96e-6f2ade9dc4bd")
 	)
-	(label "GPIO2"
+	(label "GPIOC"
 		(at 468.63 256.54 0)
 		(effects
 			(font
@@ -8632,7 +8632,7 @@
 		)
 		(uuid "a1a7efe6-d44d-4e62-baf9-accb3e3395e1")
 	)
-	(label "GPIO1"
+	(label "GPIOD"
 		(at 468.63 254 0)
 		(effects
 			(font
@@ -8782,7 +8782,7 @@
 		)
 		(uuid "b870ec7b-da39-4d61-b0dc-153ffd4eb3de")
 	)
-	(label "GPIO3"
+	(label "GPIOB"
 		(at 180.34 152.4 270)
 		(effects
 			(font
@@ -8902,7 +8902,7 @@
 		)
 		(uuid "ced56b89-bfc5-4ce9-a1bc-218e15fe2dc4")
 	)
-	(label "GPIO4"
+	(label "GPIOA"
 		(at 177.8 152.4 270)
 		(effects
 			(font
@@ -9002,7 +9002,7 @@
 		)
 		(uuid "e5078ae7-23a3-46c6-aba1-2493d8aa1637")
 	)
-	(label "GPIO4"
+	(label "GPIOA"
 		(at 468.63 261.62 0)
 		(effects
 			(font
@@ -9052,7 +9052,7 @@
 		)
 		(uuid "f4b40600-0552-4490-bea5-ca4777c189af")
 	)
-	(label "GPIO1"
+	(label "GPIOD"
 		(at 185.42 152.4 270)
 		(effects
 			(font
