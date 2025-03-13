@@ -41,6 +41,12 @@ The STM32U0 spits out its bootloader on the I2C, UART and USB.
 
 For "comfort programming" it has a TC2030 where you can connect a Segger or ST-Link
 
+# Firmware
+
+LoRa with Zephyr and TheThingsNetwork is already running :-)
+
+Firmware integration tests are [here](https://github.com/dm5tt/SolarLoRaBox_Firmware)
+
 # Evaluation
 
 [Verification of PCB v0.0.1](EVALUATION-v001.md)
