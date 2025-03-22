@@ -131,7 +131,7 @@ Results in
 LoRa Product ID: SX1261 V2D 2D02
 ```
 
-# ADC: ✅
+### ADC: ✅
 
 ```
 Channel 6 Input Voltage: 4.699 V
@@ -143,3 +143,10 @@ Channel 7 Input Voltage: 1.368 V
 Needs a buffer capacitor in front of  the sensing line. 
 
 [This caused problems with the SolarMeshtasticBox.](https://github.com/dm5tt/SolarMeshtasticNode/issues/3)
+
+### Run Test ✅
+
+![image](https://github.com/user-attachments/assets/dfe6956d-b480-4e05-9446-fb88f8dc0232)
+
+No power saving implemented - just a naked Zephyr that pushes the battery voltage to the TheThingsNetwork.
+
